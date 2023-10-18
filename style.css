@@ -51,7 +51,6 @@
 }
 #navbar-links-div a:hover{
     transform: translate(0,-5%);
-    border-bottom: 1.5px solid;
     color: rgba(0, 0, 0, 0.452);
     
 }
