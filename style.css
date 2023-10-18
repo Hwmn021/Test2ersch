@@ -15,47 +15,81 @@
     font-family: vazir-font-thin;
     src: url(vazir-font-v16.1.0/Vazir-Thin.ttf);
 }
-*{
-    font-family: sans-serif;
-
-}
 #navbar-container-div{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 5px;
-    padding-bottom: 5px;
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
 }
-
+body{
+    font-family: vazir-font-bold;
+}
 #logo{
+    font-family: sans-serif;
     width: 60px;
     height: 60px;
-    line-height: 65px;
+    /* line-height: 65px; */
     cursor: pointer;
     font-size: 2rem;
     font-family: sans-serif;
     text-transform: uppercase;
-    margin-right: 1rem;
+    margin-right: 5rem;
     text-decoration: none;
-    color: #2e0f61;
+    color: #000000;
     font-weight: 900;
 }
+#navbar-logo-div{
+    flex: 1;
+}
 #logo:hover{
-    color: #54308d;
+    color: #555555;
 }
 
 #navbar-links-div {
+    flex: 1;
     display: flex;
+    justify-content: center;
 }
 #navbar-links-div a:hover{
     transform: translate(0,-5%);
     color: rgba(0, 0, 0, 0.452);
+    border-bottom: 1.5px solid black;
     
 }
 #navbar-links-div > a{
-    padding: 18px 40px;
+    padding: 19px 40px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+#navbar-links-div img{
+    height: 24px;
+    width: 24px;
+    margin: 19px 40px 0px 50px;
+}
+#welcomePage-container-div {
+    margin-top: 2px;
+    width: 100%;
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/pexels-pixabay-415043.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+#floating-text{
+    color: #1b1b1b;
+    font-family: vazir-font-bold;
+    font-size:1400%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
