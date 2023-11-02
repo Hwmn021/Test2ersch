@@ -115,9 +115,10 @@ body{
 #floating-text{
     color: #1b1b1b;
     font-family: vazir-font-bold;
-    font-size:1400%;
+    font-size:1300%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    cursor:default;
 }
