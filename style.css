@@ -68,8 +68,7 @@ body{
     width: 24px;
     margin: 19px 40px 0px 50px;
 } */
-
-/* .search-box{
+.search-box{
     height: 30px;
     display: flex;
     cursor: pointer;
@@ -94,7 +93,7 @@ body{
 .search-box a {
     color: black;
     font-size: 14px;
-} */
+}
 #welcomePage-container-div {
     margin-top: 2px;
     width: 100%;
@@ -120,7 +119,6 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    cursor:default;
 }
 
 
