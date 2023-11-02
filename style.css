@@ -68,32 +68,7 @@ body{
     width: 24px;
     margin: 19px 40px 0px 50px;
 } */
-.search-box{
-    height: 30px;
-    display: flex;
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: #e2e2e2;
-    border-radius: 30px;
-    align-items: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    margin-left: 1%
-}
-.search-box input{
-    width: 0;
-    outline: 0;
-    border: 0;
-    font-weight: 500;
-    transition: 0.8s;
-    background: transparent;
-}
-.search-box:hover input{
-    width: 180px;
-}
-.search-box a {
-    color: black;
-    font-size: 14px;
-}
+
 #welcomePage-container-div {
     margin-top: 2px;
     width: 100%;
@@ -119,6 +94,7 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    cursor: default;
 }
 
 
@@ -136,7 +112,9 @@ body{
     margin: 5px;
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 13px 13px 15px 2px  #2c2b2b;}
+    box-shadow: 13px 13px 15px 2px  #2c2b2b;
+    cursor: pointer;
+}
 .bx-con1 .box2{
     height: 300px;
     width: 500px;
@@ -144,6 +122,7 @@ body{
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 13px 13px 15px 2px  #2c2b2b;
+    cursor: pointer;
 }
 
 
@@ -163,6 +142,7 @@ body{
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 13px 13px 15px 2px  #2c2b2b;
+    cursor: pointer;
 }
 .bx-con2 .box2{
     height: 300px;
@@ -171,4 +151,5 @@ body{
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 13px 13px 15px 2px  #2c2b2b;
+    cursor: pointer;
 }
