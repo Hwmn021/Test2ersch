@@ -122,3 +122,55 @@ body{
     animation-timing-function: ease-in-out;
     cursor:default;
 }
+
+
+.bx-con1{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #f5f2f2;
+}
+.bx-con1 .box1{
+    height: 300px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 13px 13px 15px 2px  #2c2b2b;}
+.bx-con1 .box2{
+    height: 300px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 13px 13px 15px 2px  #2c2b2b;
+}
+
+
+
+.bx-con2{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #f5f2f2;
+}
+.bx-con2 .box1{
+    height: 300px;
+    width: 500px;
+    margin: 7px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 13px 13px 15px 2px  #2c2b2b;
+}
+.bx-con2 .box2{
+    height: 300px;
+    width: 500px;
+    margin: 7px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 13px 13px 15px 2px  #2c2b2b;
+}
